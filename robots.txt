@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hikyylz.github.io/sitemap.xml

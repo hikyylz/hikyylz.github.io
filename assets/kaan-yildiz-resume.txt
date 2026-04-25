@@ -1,0 +1,6 @@
+Kaan Yildiz - Resume Placeholder
+
+This file is a placeholder for your downloadable CV.
+Replace it with your latest PDF and update the link in index.html if needed.
+
+Suggested filename: kaan-yildiz-resume.pdf

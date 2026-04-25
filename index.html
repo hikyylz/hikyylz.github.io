@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaan Yildiz | Data Science MSc Student</title>
+    <meta
+      name="description"
+      content="RWTH Aachen Data Science yuksek lisans ogrencisi Kaan Yildiz'in kisisel web sitesi ve GitHub projeleri."
+    />
+    <meta property="og:title" content="Kaan Yildiz | Data Science MSc Student" />
+    <meta
+      property="og:description"
+      content="RWTH Aachen Data Science yuksek lisans ogrencisi Kaan Yildiz'in kisisel web sitesi ve projeleri."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hikyylz.github.io/" />
+    <meta name="theme-color" content="#0b1020" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1" aria-hidden="true"></div>
+    <div class="bg-orb orb-2" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Home">KY</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#about" data-i18n-key="nav.about"></a>
+        <a href="#experience" data-i18n-key="nav.experience"></a>
+        <a href="#skills" data-i18n-key="nav.skills"></a>
+        <a href="#projects" data-i18n-key="nav.projects"></a>
+        <a href="#contact" data-i18n-key="nav.contact"></a>
+      </nav>
+      <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language"></button>
+    </header>
+
+    <main>
+      <section id="home" class="hero container">
+        <p class="eyebrow" data-i18n-key="hero.eyebrow"></p>
+        <h1 class="hero-title" data-i18n-key="hero.title"></h1>
+        <p class="hero-subtitle" data-i18n-key="hero.subtitle"></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects" data-i18n-key="hero.ctaProjects"></a>
+          <a id="cv-button" class="btn btn-secondary" href="./halilcv-february2026v2.pdf" download="halilcv-february2026v2.pdf" data-i18n-key="hero.ctaResume"></a>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <h2 data-i18n-key="about.title"></h2>
+        <p data-i18n-key="about.body"></p>
+      </section>
+
+      <section id="experience" class="section container">
+        <h2 data-i18n-key="experience.title"></h2>
+        <div id="experience-list" class="timeline"></div>
+      </section>
+
+      <section id="skills" class="section container">
+        <h2 data-i18n-key="skills.title"></h2>
+        <div id="skills-grid" class="skills-grid"></div>
+      </section>
+
+      <section id="projects" class="section container">
+        <div class="section-header">
+          <h2 data-i18n-key="projects.title"></h2>
+          <a class="ghost-link" href="https://github.com/hikyylz" target="_blank" rel="noreferrer" data-i18n-key="projects.githubLink"></a>
+        </div>
+        <p class="muted" data-i18n-key="projects.description"></p>
+        <div id="projects-grid" class="projects-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="contact" class="section container">
+        <h2 data-i18n-key="contact.title"></h2>
+        <p class="muted" data-i18n-key="contact.description"></p>
+        <div class="contact-links">
+          <a href="mailto:halilibrahimkaan.yildiz@gmail.com">halilibrahimkaan.yildiz@gmail.com</a>
+          <a href="https://github.com/hikyylz" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/kaan-yildizz/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer container">
+      <p id="footer-text"></p>
+    </footer>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

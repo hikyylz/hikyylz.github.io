@@ -1,0 +1,29 @@
+[
+  {
+    "name": "rwth-ds-coursework",
+    "description": "Assignments and mini projects from RWTH Aachen Data Science coursework.",
+    "language": "Python",
+    "stars": 3,
+    "updatedAt": "2026-03-30T10:00:00Z",
+    "htmlUrl": "https://github.com/hikyylz/rwth-ds-coursework",
+    "homepage": ""
+  },
+  {
+    "name": "ml-experiment-tracker",
+    "description": "A lightweight experiment tracking dashboard for machine learning workflows.",
+    "language": "JavaScript",
+    "stars": 5,
+    "updatedAt": "2026-02-12T09:00:00Z",
+    "htmlUrl": "https://github.com/hikyylz/ml-experiment-tracker",
+    "homepage": ""
+  },
+  {
+    "name": "data-visual-storytelling",
+    "description": "Interactive visual analytics notebook collection for storytelling with data.",
+    "language": "Jupyter Notebook",
+    "stars": 4,
+    "updatedAt": "2026-01-20T08:30:00Z",
+    "htmlUrl": "https://github.com/hikyylz/data-visual-storytelling",
+    "homepage": ""
+  }
+]
